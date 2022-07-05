@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+body {font-family: Cormorant, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 700; 
+    background-color: rgba(210, 188, 231, 0.747);
+    color: rgba(31, 28, 33, 0.871);
+   
+}
+ol {
+    font-size: larger; font-style: oblique;
+    color: rgb(26, 90, 0);
+}
+table {
+    
+    font-size: x-large;
+    font-weight: 2000;
+    font-style: oblique;
+}
+.card {
+    background-color: rgba(227, 164, 227, 0.686);
+    color: rgb(93, 24, 116);
+}
+.foto{
+    display:block;
+    margin: auto;
+    width: 300px;
+    box-shadow: 4px 4px 10px rgba(133, 20, 116, 0.589);
+    border-radius: 10px;
+}
+
+.hello {
+    margin-left: 450px;
+    color: rgba(172, 33, 117, 0.766);
+}
+.texth{
+    font-size: x-large;
+    margin: 0%;
+}
+@media (max-width: 600px)
+{
+    .hello {
+        display:inline;
+        text-align: center;
+    }
+    .texth{
+        display: block;
+        text-align: center;
+    }
+}
+.btn{
+    background-color: rgba(49, 52, 178, 0.482);
+    padding: 15px 20px;
+    color: rgb(51, 2, 97);
+    border: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic; font-size: large;
+    border-radius: 0.4cm;
+}
+.bnt :hover{ 
+    opacity: 50%;
+}
+.card1 th{
+    padding-right: 150px;
+    margin: 100px;
+}
+.card td{
+    padding-right: 100px;
+}
+.card :hover{
+    opacity: 50%;
+}
+.form{
+    text-align: center;
+}
+.form-group label{
+    display: block;
+font-size: 20px;
+color: rgba(69, 46, 91, 0.744);
+}
+.form-group input, .form-group textarea{
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 1px rgb(97, 75, 245);
+    color: brown;
+    padding: 2px 0 10px;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
